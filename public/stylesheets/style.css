@@ -1,0 +1,44 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  min-height: 100%;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 65px;
+  text-align: center;
+}
+
+#signup-form{
+  margin: 0 auto;
+  width: 80%;
+  background-color: darkgrey;
+}
+
+input{
+  margin: 20px auto;
+  width: 500px;
+  height: 70px;
+  font-family: 'Raleway', sans-serif;
+}
+
+input[type='submit']{
+  background-color: grey;
+  border-style: none;
+  font-size: 18px;
+}
+
+input[type='submit']:hover{
+  transition: .5s;
+  background-color: peachpuff;
+}
+
+li{
+  margin: 0 auto;
+  width: 40%;
+  padding: 30px;
+  list-style-type: georgian;
+  font-family: 'Raleway', sans-serif;
+}
